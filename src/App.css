@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -28,6 +29,34 @@
   color: #61dafb;
 }
 
+
+.bdyColor {
+  background-color:#002D62 ;
+}
+
+.bdposition{
+  position: relative;
+  top: 140px;
+}
+.custombtn{
+  padding: 4px;
+  width: 250px;
+  height: 50px;
+  margin-top: 0px;
+  border-radius: 15px;
+  border: 4px solid #0039a6;
+  font-size: 18px;
+  background-color: #002D62;
+  color: white;
+  
+}
+.custombtn:hover{
+  background-color: #7FFFD4;
+}
+.custombtn:focus{
+  outline: 1pxs;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +64,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.disaplyNone {
+  display: none;
+
+}
+.displayblock {
+  display: block;
+}
+.marginTop{
+  margin-top: 144px;
 }
